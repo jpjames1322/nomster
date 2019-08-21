@@ -21,4 +21,9 @@ body {
 .navbar {
   background: image_url('halftone-yellow.png');
   box-shadow: 5px 5px 5px grey;
-  }
+}
+.navbar-inverse .navbar-brand {
+  color: #0577D9;
+  font-family: 'allerbold_italic', sans-serif;
+  font-size: 26px;
+} 
