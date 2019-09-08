@@ -6,6 +6,7 @@ def create
     redirect_to place_path(@place)
   end
 end
+
   private
 
   def comment_params
