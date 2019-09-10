@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 2019_09_09_001241) do
 
   create_table "photos", force: :cascade do |t|
     t.text "caption"
+    t.integer "user_id"
     t.integer "place_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
