@@ -58,6 +58,8 @@ GEM
       autoprefixer-rails (>= 6.0.3)
       sass (>= 3.4.19)
     builder (3.2.3)
+    bundle (0.0.1)
+      bundler
     byebug (11.0.1)
     capybara (3.28.0)
       addressable
@@ -92,7 +94,7 @@ GEM
       responders
       warden (~> 1.2.3)
     erubi (1.8.0)
-    excon (0.66.0)
+    excon (0.71.0)
     execjs (2.7.0)
     ffi (1.11.1)
     figaro (1.1.1)
@@ -254,6 +256,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.1.0)
   bootstrap (= 4.0.0.alpha6)
+  bundle
   byebug
   capybara (>= 2.15)
   carrierwave (~> 1.0)
