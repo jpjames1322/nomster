@@ -1,6 +1,10 @@
 GEM
-  remote: https://rubygems.org/
   remote: https://rails-assets.org/
+  specs:
+    rails-assets-tether (1.4.7)
+
+GEM
+  remote: https://rubygems.org/
   specs:
     actioncable (5.2.3)
       actionpack (= 5.2.3)
@@ -58,6 +62,8 @@ GEM
       autoprefixer-rails (>= 6.0.3)
       sass (>= 3.4.19)
     builder (3.2.3)
+    bundle (0.0.1)
+      bundler
     byebug (11.0.1)
     capybara (3.28.0)
       addressable
@@ -174,7 +180,6 @@ GEM
       bundler (>= 1.3.0)
       railties (= 5.2.3)
       sprockets-rails (>= 2.0.0)
-    rails-assets-tether (1.4.7)
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
@@ -230,7 +235,7 @@ GEM
     turbolinks (5.2.0)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
-    tzinfo (1.2.5)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     uglifier (4.1.20)
       execjs (>= 0.3.0, < 3)
@@ -254,6 +259,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.1.0)
   bootstrap (= 4.0.0.alpha6)
+  bundle
   byebug
   capybara (>= 2.15)
   carrierwave (~> 1.0)
